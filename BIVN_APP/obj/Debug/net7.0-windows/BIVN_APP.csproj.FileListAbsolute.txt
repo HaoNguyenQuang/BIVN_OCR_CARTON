@@ -49,3 +49,33 @@ E:\TT LSD\winform\BIVN_APP\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.p
 E:\TT LSD\winform\BIVN_APP\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.genruntimeconfig.cache
 E:\TT LSD\winform\BIVN_APP\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\ref\BIVN_APP.dll
 E:\TT LSD\winform\BIVN_APP\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.PreviewImage.resources
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\BIVN_APP.exe
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\x64\pdfium.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\x86\pdfium.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\BIVN_APP.deps.json
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\BIVN_APP.runtimeconfig.json
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\BIVN_APP.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\BIVN_APP.pdb
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\PdfiumViewer.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\PdfiumViewer.pdb
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\nl\PdfiumViewer.resources.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.csproj.AssemblyReference.cache
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.HomePage.resources
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.LoadingForm.resources
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.PreviewImage.resources
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.Properties.Resources.resources
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.csproj.GenerateResource.cache
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.GeneratedMSBuildEditorConfig.editorconfig
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.AssemblyInfoInputs.cache
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.AssemblyInfo.cs
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.csproj.CoreCompileInputs.cache
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.csproj.CopyComplete
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\refint\BIVN_APP.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.pdb
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.genruntimeconfig.cache
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\ref\BIVN_APP.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\AForge.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\AForge.Video.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\bin\Debug\net7.0-windows\AForge.Video.DirectShow.dll
+E:\BIVN_APP_Luc\BIVN_APP\BIVN_APP\obj\Debug\net7.0-windows\BIVN_APP.CheckCamForm.resources
