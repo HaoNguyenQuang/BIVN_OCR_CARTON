@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BIVN_APP_Luc\\BIVN_APP\\BIVN_APP\\BIVN_APP.csproj": {}
+    "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\BIVN_APP\\BIVN_APP.csproj": {}
   },
   "projects": {
-    "E:\\BIVN_APP_Luc\\BIVN_APP\\BIVN_APP\\BIVN_APP.csproj": {
+    "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\BIVN_APP\\BIVN_APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BIVN_APP_Luc\\BIVN_APP\\BIVN_APP\\BIVN_APP.csproj",
+        "projectUniqueName": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\BIVN_APP\\BIVN_APP.csproj",
         "projectName": "BIVN_APP",
-        "projectPath": "E:\\BIVN_APP_Luc\\BIVN_APP\\BIVN_APP\\BIVN_APP.csproj",
+        "projectPath": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\BIVN_APP\\BIVN_APP.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "E:\\BIVN_APP_Luc\\BIVN_APP\\BIVN_APP\\obj\\",
+        "outputPath": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\BIVN_APP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0-windows7.0": {
             "targetAlias": "net7.0-windows",
             "projectReferences": {
-              "E:\\BIVN_APP_Luc\\BIVN_APP\\PdfiumViewer\\PdfiumViewer.csproj": {
-                "projectPath": "E:\\BIVN_APP_Luc\\BIVN_APP\\PdfiumViewer\\PdfiumViewer.csproj"
+              "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\PdfiumViewer\\PdfiumViewer.csproj": {
+                "projectPath": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\PdfiumViewer\\PdfiumViewer.csproj"
               }
             }
           }
@@ -88,11 +88,11 @@
         }
       }
     },
-    "E:\\BIVN_APP_Luc\\BIVN_APP\\PdfiumViewer\\PdfiumViewer.csproj": {
+    "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\PdfiumViewer\\PdfiumViewer.csproj": {
       "restore": {
-        "projectUniqueName": "E:\\BIVN_APP_Luc\\BIVN_APP\\PdfiumViewer\\PdfiumViewer.csproj",
+        "projectUniqueName": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\PdfiumViewer\\PdfiumViewer.csproj",
         "projectName": "PdfiumViewer",
-        "projectPath": "E:\\BIVN_APP_Luc\\BIVN_APP\\PdfiumViewer\\PdfiumViewer.csproj",
+        "projectPath": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\PdfiumViewer\\PdfiumViewer.csproj",
         "frameworks": {
           "net20": {
             "projectReferences": {}

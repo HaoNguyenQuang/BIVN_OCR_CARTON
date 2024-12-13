@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hf8hIIX2dtiQtebEmcjoiIKA+zoUZd/L0qUuruc9nwxrWTz3nR6wUGkrJ/uqiVJQWYZtLimsziN4Stex50DRYA==",
+  "dgSpecHash": "MIbPtB4vQuknxAJIXHykvTpkwG4jE5yLm3hDEBc2pEhfhHC7LuO05eImEfqEFZ/6diNIvNnbm5FJIOUts2Gr+w==",
   "success": true,
-  "projectFilePath": "E:\\BIVN_APP_Luc\\BIVN_APP\\BIVN_APP\\BIVN_APP.csproj",
+  "projectFilePath": "E:\\OCR_CARTON\\BIVN_OCR_CARTON\\BIVN_APP\\BIVN_APP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\admin\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
     "C:\\Users\\admin\\.nuget\\packages\\aforge.video\\2.2.5\\aforge.video.2.2.5.nupkg.sha512",

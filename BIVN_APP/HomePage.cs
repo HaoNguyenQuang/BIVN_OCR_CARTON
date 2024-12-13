@@ -438,8 +438,14 @@ namespace BIVN_APP
                 // Lấy ảnh gốc từ list screenshotList hoặc từ ImageList (dùng ảnh gốc)
                 Bitmap selectedImage = screenshotList[selectedIndex]; // Lấy ảnh từ danh sách đã lưu
 
-                PreviewImage zoomForm = new PreviewImage(selectedImage);
-                zoomForm.ShowDialog(); //
+                //PreviewImage zoomForm = new PreviewImage(selectedImage);
+                //zoomForm.ShowDialog(); //
+               
+             
+
+                // Truyền dữ liệu vào form khác
+                CheckCamForm checkCamForm = new CheckCamForm(selectedImage, screenshotList);
+                checkCamForm.ShowDialog();
             }
         }
 

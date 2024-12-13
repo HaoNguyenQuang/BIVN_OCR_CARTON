@@ -17,14 +17,18 @@ namespace BIVN_APP
     {
         FilterInfoCollection filterInfoCollection;
         VideoCaptureDevice captureDevice;
+        private Bitmap _screenshot;
+        private List<Bitmap> screenshotList = new List<Bitmap>();
 
 
-        public CheckCamForm()
+        public CheckCamForm(Bitmap screenshot, List<Bitmap> imageList)
         {
             InitializeComponent();
             comboBoxCamera.Items.Clear();
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-
+            _screenshot = screenshot;
+            pictureBoxImage.Image = _screenshot;
+            LoadImagesToComboBox(imageList);
             foreach (FilterInfo info in filterInfoCollection)
             {
                 comboBoxCamera.Items.Add(info.Name);
@@ -33,6 +37,33 @@ namespace BIVN_APP
                 comboBoxCamera.SelectedIndex = 0;
             else
                 MessageBox.Show("Không có thiết bị camera nào được phát hiện!");
+            _screenshot = screenshot;
+        }
+        private void comboBoxRegion_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Lấy ảnh tương ứng với vùng được chọn và hiển thị trong PictureBox
+            int selectedIndex = comboBoxRegion.SelectedIndex;
+            if (selectedIndex >= 0 && selectedIndex < screenshotList.Count)
+            {
+                pictureBoxImage.Image = screenshotList[selectedIndex];
+            }
+        }
+
+        private void LoadImagesToComboBox(List<Bitmap> imageList)
+        {
+            // Xóa các mục cũ trong ComboBox (nếu cần)
+            comboBoxRegion.Items.Clear();
+            screenshotList = imageList;
+
+            for (int i = 0; i < screenshotList.Count; i++)
+            {
+                comboBoxRegion.Items.Add($"Vùng {i + 1}");
+            }
+
+            if (comboBoxRegion.Items.Count > 0)
+            {
+                comboBoxRegion.SelectedIndex = 0;
+            }
         }
 
         private async void buttonStart_Click(object sender, EventArgs e)
@@ -115,5 +146,6 @@ namespace BIVN_APP
 
             }
         }
+
     }
 }
