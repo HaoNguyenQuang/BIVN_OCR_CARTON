@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{438914B6-5D1C-482C-B942-5C0E057EEF6F}|PdfiumViewer\\PdfiumViewer.csproj|E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\pdfiumviewer\\panningzoomingscrollcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438914B6-5D1C-482C-B942-5C0E057EEF6F}|PdfiumViewer\\PdfiumViewer.csproj|solutionrelative:pdfiumviewer\\panningzoomingscrollcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|e:\\tt lsd\\winform\\bivn_app\\bivn_app\\bivn_app\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|solutionrelative:bivn_app\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|e:\\tt lsd\\winform\\bivn_app\\bivn_app\\bivn_app\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|solutionrelative:bivn_app\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|e:\\tt lsd\\winform\\bivn_app\\bivn_app\\bivn_app\\previewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|solutionrelative:bivn_app\\previewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\bivn_app\\previewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|solutionrelative:bivn_app\\previewimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|e:\\tt lsd\\winform\\bivn_app\\bivn_app\\bivn_app\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|solutionrelative:bivn_app\\homepage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|e:\\tt lsd\\winform\\bivn_app\\bivn_app\\bivn_app\\previewimage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0601FCB-A161-4303-B334-671306A47493}|BIVN_APP\\BIVN_APP.csproj|solutionrelative:bivn_app\\previewimage.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{438914B6-5D1C-482C-B942-5C0E057EEF6F}|PdfiumViewer\\PdfiumViewer.csproj|E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\pdfiumviewer\\linkclickeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438914B6-5D1C-482C-B942-5C0E057EEF6F}|PdfiumViewer\\PdfiumViewer.csproj|solutionrelative:pdfiumviewer\\linkclickeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{438914B6-5D1C-482C-B942-5C0E057EEF6F}|PdfiumViewer\\PdfiumViewer.csproj|E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\pdfiumviewer\\mousewheelmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438914B6-5D1C-482C-B942-5C0E057EEF6F}|PdfiumViewer\\PdfiumViewer.csproj|solutionrelative:pdfiumviewer\\mousewheelmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.Designer.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\HomePage.Designer.cs",
+              "RelativeDocumentMoniker": "BIVN_APP\\HomePage.Designer.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\HomePage.Designer.cs",
+              "RelativeToolTip": "BIVN_APP\\HomePage.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:39:59.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PreviewImage.cs [Design]",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\PreviewImage.cs",
+              "RelativeDocumentMoniker": "BIVN_APP\\PreviewImage.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\PreviewImage.cs [Design]",
+              "RelativeToolTip": "BIVN_APP\\PreviewImage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:34:46.958Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PreviewImage.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\PreviewImage.cs",
+              "RelativeDocumentMoniker": "BIVN_APP\\PreviewImage.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\PreviewImage.cs",
+              "RelativeToolTip": "BIVN_APP\\PreviewImage.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:42:13.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PanningZoomingScrollControl.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\PdfiumViewer\\PanningZoomingScrollControl.cs",
+              "RelativeDocumentMoniker": "PdfiumViewer\\PanningZoomingScrollControl.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\PdfiumViewer\\PanningZoomingScrollControl.cs",
+              "RelativeToolTip": "PdfiumViewer\\PanningZoomingScrollControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:22:01.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.cs [Design]",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\HomePage.cs",
+              "RelativeDocumentMoniker": "BIVN_APP\\HomePage.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\HomePage.cs [Design]",
+              "RelativeToolTip": "BIVN_APP\\HomePage.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T04:26:14.937Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PreviewImage.Designer.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\PreviewImage.Designer.cs",
+              "RelativeDocumentMoniker": "BIVN_APP\\PreviewImage.Designer.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\PreviewImage.Designer.cs",
+              "RelativeToolTip": "BIVN_APP\\PreviewImage.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T08:42:07.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\HomePage.cs",
+              "RelativeDocumentMoniker": "BIVN_APP\\HomePage.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\HomePage.cs",
+              "RelativeToolTip": "BIVN_APP\\HomePage.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwHkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T16:40:23.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LinkClickEventHandler.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\PdfiumViewer\\LinkClickEventHandler.cs",
+              "RelativeDocumentMoniker": "PdfiumViewer\\LinkClickEventHandler.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\PdfiumViewer\\LinkClickEventHandler.cs",
+              "RelativeToolTip": "PdfiumViewer\\LinkClickEventHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:18:16.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MouseWheelMode.cs",
+              "DocumentMoniker": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\PdfiumViewer\\MouseWheelMode.cs",
+              "RelativeDocumentMoniker": "PdfiumViewer\\MouseWheelMode.cs",
+              "ToolTip": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\PdfiumViewer\\MouseWheelMode.cs",
+              "RelativeToolTip": "PdfiumViewer\\MouseWheelMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T01:18:09.787Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

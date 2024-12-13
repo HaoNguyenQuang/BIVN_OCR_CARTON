@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Liz3z8dNVjc=",
+  "success": true,
+  "projectFilePath": "E:\\TT LSD\\winform\\BIVN_APP\\BIVN_APP\\BIVN_APP\\BIVN_APP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucng\\.nuget\\packages\\pdfiumviewer.native.x86.v8-xfa\\2018.4.8.256\\pdfiumviewer.native.x86.v8-xfa.2018.4.8.256.nupkg.sha512",
+    "C:\\Users\\lucng\\.nuget\\packages\\pdfiumviewer.native.x86_64.v8-xfa\\2018.4.8.256\\pdfiumviewer.native.x86_64.v8-xfa.2018.4.8.256.nupkg.sha512"
+  ],
+  "logs": []
+}
