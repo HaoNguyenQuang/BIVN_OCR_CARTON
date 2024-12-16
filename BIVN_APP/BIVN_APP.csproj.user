@@ -10,6 +10,9 @@
     <Compile Update="LoadingForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="OCRResultForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="PreviewImage.cs">
       <SubType>Form</SubType>
     </Compile>

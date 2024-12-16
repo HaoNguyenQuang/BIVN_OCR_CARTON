@@ -52,6 +52,14 @@
               "target": "Package",
               "version": "[2.2.5, )"
             },
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.9.0.5494, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "PdfiumViewer": {
               "target": "Package",
               "version": "[2.13.0, )"
@@ -63,6 +71,10 @@
             "PdfiumViewer.Native.x86_64.v8-xfa": {
               "target": "Package",
               "version": "[2018.4.8.256, )"
+            },
+            "Tesseract": {
+              "target": "Package",
+              "version": "[5.2.0, )"
             }
           },
           "imports": [

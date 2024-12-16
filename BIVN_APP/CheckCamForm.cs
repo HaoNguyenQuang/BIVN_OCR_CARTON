@@ -10,6 +10,13 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video;
 using AForge.Video.DirectShow;
+using Emgu.CV;
+using Emgu.CV.Ocl;
+using Emgu.CV.OCR;
+using Emgu.CV.Structure;
+using Newtonsoft.Json;
+using Tesseract;
+
 
 namespace BIVN_APP
 {
@@ -19,14 +26,55 @@ namespace BIVN_APP
         VideoCaptureDevice captureDevice;
         private Bitmap _screenshot;
         private List<Bitmap> screenshotList = new List<Bitmap>();
+        public string resultOCRImage;
+        public string resultOCRCamera;
+        public string language = "ara+chi_sim+chi_sim_vert+deu+deu_frak+deu_latf+eng+fra+jpn+jpn_vert+kor+kor_vert+rus+spa+spa_old+tha+vie";
+        //public string language;
+        //public class Config
+        //{
+        //    public string Languages { get; set; }
+        //}
+
+        //public string LoadLanguageFromConfig()
+        //{
+        //    try
+        //    {
+        //        string filePath = @"E:\OCR_CARTON\configs.json";
+        //        if (!File.Exists(filePath))
+        //        {
+        //            MessageBox.Show("File cấu hình không tồn tại. Sử dụng ngôn ngữ mặc định: eng");
+        //            return "eng";
+        //        }
+
+        //        string jsonContent = File.ReadAllText(filePath);
+        //        var config = JsonConvert.DeserializeObject<Config>(jsonContent);
+
+        //        if (config != null && !string.IsNullOrEmpty(config.Languages))
+        //        {
+        //            return config.Languages;
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Nội dung file cấu hình không hợp lệ. Sử dụng ngôn ngữ mặc định: eng");
+        //            return "eng";
+        //        }
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        MessageBox.Show("Lỗi khi đọc file cấu hình: " + ex.Message);
+        //        return "eng";
+        //    }
+        //}
+    
 
 
-        public CheckCamForm(Bitmap screenshot, List<Bitmap> imageList)
+
+    public CheckCamForm(Bitmap screenshot, List<Bitmap> imageList)
         {
             InitializeComponent();
             comboBoxCamera.Items.Clear();
             filterInfoCollection = new FilterInfoCollection(FilterCategory.VideoInputDevice);
-            _screenshot = screenshot;
+            _screenshot = screenshot ?? new Bitmap(100, 100); ;
             pictureBoxImage.Image = _screenshot;
             LoadImagesToComboBox(imageList);
             foreach (FilterInfo info in filterInfoCollection)
@@ -37,7 +85,6 @@ namespace BIVN_APP
                 comboBoxCamera.SelectedIndex = 0;
             else
                 MessageBox.Show("Không có thiết bị camera nào được phát hiện!");
-            _screenshot = screenshot;
         }
         private void comboBoxRegion_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -51,7 +98,11 @@ namespace BIVN_APP
 
         private void LoadImagesToComboBox(List<Bitmap> imageList)
         {
-            // Xóa các mục cũ trong ComboBox (nếu cần)
+            if (imageList == null || imageList.Count == 0)
+            {
+                MessageBox.Show("Danh sách ảnh trống! Đang khởi tạo danh sách mặc định.");
+                imageList = null;
+            }
             comboBoxRegion.Items.Clear();
             screenshotList = imageList;
 
@@ -109,12 +160,15 @@ namespace BIVN_APP
             {
                 pictureBoxCamera.Invoke(new Action(() =>
                 {
-                    pictureBoxCamera.Image = (Bitmap)e.Frame.Clone();
+                    Bitmap frame = (Bitmap)e.Frame.Clone();
+                    pictureBoxCamera.Image = frame;
                 }));
             }
             else
             {
-                pictureBoxCamera.Image = (Bitmap)e.Frame.Clone();
+                Bitmap frame = (Bitmap)e.Frame.Clone();
+                pictureBoxCamera.Image = frame;
+
             }
         }
 
@@ -146,6 +200,88 @@ namespace BIVN_APP
 
             }
         }
+        private void PerformOCR()
+        {
+            if (pictureBoxImage.Image != null)
+            {
+                try
+                {
+                    //language = LoadLanguageFromConfig();
+                    string tessdataPath = @"E:\OCR_CARTON\tessdata-main\tessdata-main";
 
+                    using (var ocr = new TesseractEngine(tessdataPath, language, EngineMode.Default))
+                    {
+                        Bitmap bitmap = (Bitmap)pictureBoxImage.Image;
+                        using (Tesseract.Pix pixImage = Tesseract.Pix.LoadFromMemory(BitmapToBytes(bitmap)))
+                        {
+                            using (var page = ocr.Process(pixImage))
+                            {
+                                resultOCRImage = page.GetText();
+                                OCRResultForm resultForm = new OCRResultForm(resultOCRImage);
+                                resultForm.Show();
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi thực hiện OCR: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có ảnh để thực hiện OCR.");
+            }
+        }
+        private byte[] BitmapToBytes(Bitmap bitmap)
+        {
+            using (var ms = new MemoryStream())
+            {
+                bitmap.Save(ms, System.Drawing.Imaging.ImageFormat.Bmp);
+                return ms.ToArray();
+            }
+        }
+
+        private void buttonResult_Click(object sender, EventArgs e)
+        {
+            PerformOCR();
+        }
+
+        private void buttonTake_Click(object sender, EventArgs e)
+        {
+            if (pictureBoxCamera.Image != null)
+            {
+                try
+                {
+                    // Chuyển hình ảnh trong PictureBox thành Bitmap
+                    Bitmap bitmap = (Bitmap)pictureBoxCamera.Image;
+
+                    string tessdataPath = @"E:\OCR_CARTON\tessdata-main\tessdata-main";
+                    //language = LoadLanguageFromConfig();
+                    using (var ocr = new TesseractEngine(tessdataPath, language, EngineMode.Default))
+                    {
+
+                        using (Tesseract.Pix pixImage = Tesseract.Pix.LoadFromMemory(BitmapToBytes(bitmap)))
+                        {
+                            // Thực hiện nhận diện văn bản
+                            using (var page = ocr.Process(pixImage))
+                            {
+                                resultOCRCamera = page.GetText();
+                                OCRResultForm resultForm = new OCRResultForm(resultOCRCamera);
+                                resultForm.Show();
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Lỗi khi thực hiện OCR: " + ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Không có ảnh để thực hiện OCR.");
+            }
+        }
     }
 }

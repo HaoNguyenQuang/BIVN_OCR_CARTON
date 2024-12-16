@@ -41,6 +41,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.pictureBoxImage = new System.Windows.Forms.PictureBox();
+            this.buttonTake = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCamera)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -93,7 +94,7 @@
             // 
             // buttonStop
             // 
-            this.buttonStop.Location = new System.Drawing.Point(752, 22);
+            this.buttonStop.Location = new System.Drawing.Point(578, 22);
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.Size = new System.Drawing.Size(78, 31);
             this.buttonStop.TabIndex = 4;
@@ -136,6 +137,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.buttonTake);
             this.groupBox2.Controls.Add(this.buttonResult);
             this.groupBox2.Controls.Add(this.buttonStart);
             this.groupBox2.Controls.Add(this.buttonStop);
@@ -149,12 +151,13 @@
             // 
             // buttonResult
             // 
-            this.buttonResult.Location = new System.Drawing.Point(467, 26);
+            this.buttonResult.Location = new System.Drawing.Point(349, 22);
             this.buttonResult.Name = "buttonResult";
             this.buttonResult.Size = new System.Drawing.Size(78, 31);
             this.buttonResult.TabIndex = 5;
             this.buttonResult.Text = "Result";
             this.buttonResult.UseVisualStyleBackColor = true;
+            this.buttonResult.Click += new System.EventHandler(this.buttonResult_Click);
             // 
             // groupBox3
             // 
@@ -193,6 +196,16 @@
             this.pictureBoxImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxImage.TabIndex = 0;
             this.pictureBoxImage.TabStop = false;
+            // 
+            // buttonTake
+            // 
+            this.buttonTake.Location = new System.Drawing.Point(774, 22);
+            this.buttonTake.Name = "buttonTake";
+            this.buttonTake.Size = new System.Drawing.Size(78, 31);
+            this.buttonTake.TabIndex = 6;
+            this.buttonTake.Text = "Take";
+            this.buttonTake.UseVisualStyleBackColor = true;
+            this.buttonTake.Click += new System.EventHandler(this.buttonTake_Click);
             // 
             // CheckCamForm
             // 
@@ -234,5 +247,6 @@
         private Label label2;
         private Button buttonResult;
         private PictureBox pictureBoxImage;
+        private Button buttonTake;
     }
 }
